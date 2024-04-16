@@ -13,4 +13,4 @@ Obtain and modify the build files as required. Use the following command to buil
 ## Docker Compose Prerequisites:  
 1. Create and place the `config.toml` in the same directory as the `docker-compose.yml`
 ***
-**Note:** Unmodified, the container will run on port 80. Although this port is not exposed in the docker image or the in compose file, I would highly recommend placing this container behind a proxy. Also note that modifications need to create an image that uses a non-root user.
+**Note:** Unmodified, the container will run on port 80. Although this port is not exposed in the docker image or the in compose file, I would highly recommend placing this container behind a proxy. Also note that modifications need to be made to create an image that uses a non-root user.
