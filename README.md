@@ -4,7 +4,11 @@ Docker image for Xen Orchestra, a global orchestration solution to manage and ba
 Original project link: https://github.com/vatesfr/xen-orchestra  
 Original setup guide: https://xen-orchestra.com/docs/installation.html#from-the-sources
 ***
-**Disclaimer:** Xen Orchestra persistance is not guaranteed. Use at your own risk.
+**Disclaimer:** Xen Orchestra persistance is not guaranteed. Use at your own risk.  
+**Issues:**  
+- Remotes currently not working probably because the cifs/samba service doesn't run within the container
+
+**Note:** If you use SMB shares, make sure your NAS allows SMB3_00 as this is the highest SMB version supported by xcp-ng
 ***
 ## Build Prerequisites:  
 1. The `xo_setup.sh` file should be in the same directory as the `Dockerfile`
