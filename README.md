@@ -19,6 +19,8 @@ Original setup guide: https://xen-orchestra.com/docs/installation.html#from-the-
 ***
 ## Docker Compose Instructions:  
 1. Modify the compose file as you please but note that the redis server name in `/etc/xo-server/config.toml` is defined as `xo-redis`
+
+**Note:** Link a reverse proxy container of your choosing. I provided `nginx_reverse_proxy.conf` as a sample nginx configuration.
 *** 
 
 default credentials:  
